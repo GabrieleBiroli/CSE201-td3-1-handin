@@ -130,7 +130,7 @@ void merge_telemetry(double **telemetries,
 
     int q;
     q = global_telemetry_current_size/3;
-    std::cout <<global_telemetry_max_size;
+
 
     if (global_telemetry_current_size==6) {
         if (global_telemetry[0]<global_telemetry[3]) {
@@ -140,7 +140,7 @@ void merge_telemetry(double **telemetries,
             double d = global_telemetry[3];
             double e = global_telemetry[4];
             double f = global_telemetry[5];
-            std::cout << a << b << c << d << e << f;
+
            }
         }
 
